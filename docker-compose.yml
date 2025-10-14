@@ -1,0 +1,9 @@
+services:
+  github:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: github-readme-stats
+    restart: unless-stopped
+    ports:
+      - "9000:9000"
