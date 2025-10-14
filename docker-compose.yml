@@ -6,4 +6,4 @@ services:
     container_name: github-readme-stats
     restart: unless-stopped
     ports:
-      - "9000:9000"
+      - "127.0.0.1:9000:9000"
